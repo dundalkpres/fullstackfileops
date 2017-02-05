@@ -1,0 +1,7 @@
+{
+	"newline"        : true,
+	"newlineMaximum" : 2,
+	"trailingspaces" : true,
+	"indentation"    : "tabs",
+	"ignores"        : ["js-comments"]
+}
