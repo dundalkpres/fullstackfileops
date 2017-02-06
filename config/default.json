@@ -1,3 +1,13 @@
 {
-	"targetPath" : "./files"
+	"sourcePath": "./files/original",
+	"targetPath": "./files/moved",
+	"contentToAppend": {
+		"text": ["one", "two", "three", "four"],
+		"json": {
+			"one": 1,
+			"two": 2,
+			"three": 3,
+			"four": 4
+		}
+	}
 }

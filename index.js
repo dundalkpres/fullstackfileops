@@ -3,7 +3,9 @@
 
 var Config = require('config');
 var rename = require('./lib/rename');
-var targetPath = Config.get('targetPath');
+var
+//	sourcePath = Config.get('sourcePath'),
+	targetPath = Config.get('targetPath');
 
 console.log(targetPath);
 
