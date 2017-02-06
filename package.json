@@ -19,7 +19,7 @@
   },
   "scripts": {
     "mocha": "mocha",
-    "start": "node ./",
+    "start": "mkdir -p ./files/moved && node ./",
     "test": "npm run gulp test",
     "gulp": "gulp"
   },
